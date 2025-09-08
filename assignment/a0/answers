@@ -34,7 +34,6 @@ main_components:
 
 project_components:
   - Proposal
-  - Presentation
   - Final report
 
 # 3. How many late days can you use over the semester?
@@ -43,7 +42,7 @@ late_days: 5
 
 # 4. How many late days can you use on a single assignment?
 # (Replace the 0 with the right answer.)
-late_days_per: 3
+late_days_per: 2
 
 # 5. If you run out of late days, and hand it in 12 hours after the deadline,
 #    how much is your grade reduced on that assignment?
@@ -58,7 +57,6 @@ past_hard_deadline_grade: 0
 # (Delete the incorrect answers.)
 general_questions:
   - Public post on Ed Discussion
-  - Your live session instructor's berkeley email address
 
 # 9. Which of the following are appropriate places to ask questions that cannot be made
 #    public (e.g. ones that contain assignment solutions?)
@@ -73,14 +71,12 @@ private_questions:
 beyond_late_days:
   - Email the instructor mailing list, and cc student support as early as possible,
     even if you aren't completely sure you'll need anything.
-  - Ask on Ed Discussion
+
 
 # 11. Where do you find out which async to watch each week?
 # (Delete the incorrect answers.)
 async_source:
   - The "Async to watch" column in the syllabus
-  - Watch "Unit x" while preparing for "Week x"'s live session.
-  - Ask on Ed Discussion
 
 # 12. This course isn't known as a super easy class and I should be cautious about taking it
 #     in conjunction with:
