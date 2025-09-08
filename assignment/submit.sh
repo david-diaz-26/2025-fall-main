@@ -109,7 +109,7 @@ echo "== Select GitHub access protocol =="
 echo "HTTPS is default, but SSH may be needed if you use two-factor auth."
 select mode in "HTTPS" "SSH" "(cancel)"; do
   case $mode in
-    "HTTPS" ) REMOTE_URL="https://github.com/$REPO_NAME.git"; break;;
+    "HTTPS" ) REMOTE_URL="https://david-diaz-26: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@github.com/$REPO_NAME.git"; break;;
     "SSH" ) REMOTE_URL="git@github.com:$REPO_NAME.git"; break;;
     "(cancel)" ) echo "Submit cancelled."; exit;;
   esac
